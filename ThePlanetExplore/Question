@@ -1,0 +1,33 @@
+**Class Definition:**
+
+public class PlanetExplorer {
+
+public double calculateSurfaceArea(double radius);
+
+}
+
+**Inputs:**
+
+The method calculateSurfaceArea(double radius) will receive one parameter:
+
+- radius : a double representing the radius of the sphere (planet).
+
+**Outputs:**
+
+The method will return a double - the surface area of the sphere.
+
+**Example:**
+
+**Sample Input:**
+
+PlanetExplorer explorer = new PlanetExplorer();
+
+explorer.calculateSurfaceArea(3.0);
+
+**Sample Output:**
+
+113.10
+
+**Note:**
+
+In the sample input, the radius of the planet (sphere) is 3.0 units. The surface area is 4π*3^2 = 113.10, so the method returns 113.10 as the output. Your method will be essential in helping the scientists at the space research center in understanding the properties of various planets. Good luck, scientist!
